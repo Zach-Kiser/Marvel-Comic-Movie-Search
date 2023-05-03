@@ -1,0 +1,16 @@
+#book-results .card {
+  width: 8rem;
+}
+img {
+  width: 10vw;
+}
+.btn {
+  background-color: red;
+  color: white;
+  border-color: white;
+}
+
+/*body {
+  background-image: url('https://img.fruugo.com/product/4/54/99400544_max.jpg'), opacity: 0.2;
+  background-image-opacity: 0.2;
+}*/
