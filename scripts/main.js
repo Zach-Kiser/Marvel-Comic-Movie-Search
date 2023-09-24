@@ -74,7 +74,7 @@ const getMovie = (name) => {
   // fetch(`https://api.tvmaze.com/search/shows?q=:${name}`
   const filter = document.getElementById('filter').value;
   console.log(filter);
-  return fetch(`http://www.omdbapi.com/?t=${name}&apikey=a98aa172&type=${filter}&r=json`
+  return fetch(`https://www.omdbapi.com/?t=${name}&apikey=a98aa172&type=${filter}&r=json`
   ).then((resp) => resp.json())
     /*.then((result) => {
       console.log(result);
